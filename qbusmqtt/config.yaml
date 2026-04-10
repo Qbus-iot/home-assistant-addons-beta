@@ -11,6 +11,9 @@ arch:
   - amd64
 services:
   - 'mqtt:need'
+map:
+  - config:rw
+  - /config/qbusmqtt/data:/opt/qbusmqttgw/data
 schema:
   MQTT_HOST: str?
   MQTT_PORT: port?
