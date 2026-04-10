@@ -12,7 +12,7 @@ arch:
 services:
   - 'mqtt:need'
 map:
-  - data:/opt/qbusmqttgw/data
+  - data:/data
 schema:
   MQTT_HOST: str?
   MQTT_PORT: port?
