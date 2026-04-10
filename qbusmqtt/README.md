@@ -1,4 +1,4 @@
-# QBUSMQTT
+# QBUSMQTT.
 
 Exposes states and events of the Qbus Home Automation system to a MQTT broker.
 
